@@ -3,7 +3,18 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1></h1>
+        <div class="container">
+            <h1>Generate a<br> <span class="green">random password</span></h1>
+            <p>Never use an insecure password again</p>
+            <button id="pass-gen-btn">Generate Password</button>
+            <hr>
+            <div id="input-fields">
+                <input type="text" id="password1" onclick="copyToClipboard('password1')">
+                <input type="text" id="password2" onclick="copyToClipboard('password2')">
+            </div>
+            <footer>Created with❤️ by Rahul SK</footer>
+        </div>
+
         <script src="index.js"></script>
     </body>
 </html>
