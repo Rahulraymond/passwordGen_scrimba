@@ -4,6 +4,7 @@ body {
     font-family: "karla";
     display: flex;
     justify-content: center;
+    padding-top: 50px;
 }
 *{
     padding: 0px;
@@ -17,7 +18,7 @@ body {
     padding: 50px;
     min-width: 430px;
     max-width: 430px;
-    height: 320px;
+    height: 50vh;
     margin: 10px;
     border-radius: 6px;
 }
@@ -52,7 +53,6 @@ p{
     background-color: #273549;
     margin-top: 20px;
     color: #4ADF86;
-    padding-left: 10px;
 
 }
 
